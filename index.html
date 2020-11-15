@@ -10,30 +10,128 @@
 
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/sports.css" />
+    <link rel="stylesheet" href="styles/natural.css" />
+    <link rel="stylesheet" href="styles/blog.css" />
+    <link rel="stylesheet" href="styles/insta.css" />
+    <link rel="stylesheet" href="styles/athletes.css" />
+    <link rel="stylesheet" href="styles/partner.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
 
 </head>
 
 <body>
 
     <div class="bg">
-        <div class="content-top">
+        <div class="contentTop">
             <header class="header-menu">
-                <div class="logo">
-                    <img src="images/logoipsum.svg" alt="LogoIpsun">
-                </div>
+                <ul>
+                    <img src="images/logoipsum.svg" class="logoTop" alt="LogoIpsun">
+                    <li>
+                        <a href="#" class="hover prod" id="showMenu">Nossos Produtos</a>
+                        <div class="menuProd" id="nav">
+                            <div class="link">
+                                <a href="#">Ver todos os produtos</a>
+                            </div>
+                            <ul>
+                                <div class="itens">
+                                    <li>
+                                        <div class="item">
+                                            <img src="/images/item/granola.svg" alt="granola">
+                                            <p>Granolas</p>
+                                        </div>
+                                    </li>
 
-                <a href="">Nossos Produtos</a>
-                <a href="">Logo Ipsum Transforma</a>
-                <a href="">Onde Encontrar</a>
-                <a href="">
-                    <button class="btn">Comprar Agora</button>
-                </a>
-                <a href="" class="languageBtn">
-                    BR
-                    <img src="./images/icon/uil_angle-down.svg" alt="select">
-                </a>
-            </header>
+                                    <li>
+                                        <div class="item">
+                                            <img src="/images/item/granola-1.svg" alt="Cookies">
+                                            <p>Cookies</p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="item">
+                                            <img src="/images/item/granola-2.svg" alt="Barrinhas">
+                                            <p>Barrinhas</p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="item">
+                                            <img src="/images/item/granola-3.svg" alt="Funcionais">
+                                            <p>Funcionais</p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="item">
+                                            <img src="/images/item/granola-4.svg" alt="Integrais">
+                                            <p>Integrais</p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="item">
+                                            <img src="/images/item/granola-5.svg" alt="Gourmet">
+                                            <p>Gourmet</p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="item">
+                                            <img src="/images/item/granola-6.svg" alt="Pastas">
+                                            <p>Pastas</p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="item">
+                                            <img src="/images/item/granola-7.svg" alt="Snacks">
+                                            <p>Snacks</p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="item">
+                                            <img src="/images/item/granola-8.svg" alt="Suplementos">
+                                            <p>Suplementos</p>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="item">
+                                            <img src="/images/item/granola-9.svg" alt="Açucares">
+                                            <p>Açucares</p>
+                                        </div>
+                                    </li>
+
+                                    <button id="hideMenu">X</button>
+                                </div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" class="hover">Logo Ipsum Transforma</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover">Onde Encontrar</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover">
+                            <button class="btn">Comprar Agora</button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="languageBtn hover">BR
+                            <img src="./images/icon/uil_angle-down.svg" alt="select">
+                        </a>
+                    </li>
+                </ul>
         </div>
+        </header>
+    </div>
     </div>
 
     <section class="content-body">
@@ -391,5 +489,8 @@
     </section>
 
 </body>
+
+<script type="text/javascript" src="/scripts/menu.js"></script>
+
 
 </html>

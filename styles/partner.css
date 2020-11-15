@@ -1,0 +1,39 @@
+.partner {
+    margin-top: 100px;
+    max-width: 100vw;
+    height: 520px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2F2EE;
+}
+
+.partner-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partner-card {
+    width: 360px;
+    height: 223px;
+    margin-right: 100px;
+}
+
+.partner-card h2 {
+    font-size: 38px;
+    color: #FA4616;
+    margin-bottom: 13px;
+}
+
+.partner-card p {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: #6A6A57;
+    margin-bottom: 35px;
+}
+
+.sell-btn {
+    color: #FA4616;
+}

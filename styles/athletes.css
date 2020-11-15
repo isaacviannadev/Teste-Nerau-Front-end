@@ -1,0 +1,81 @@
+.athlete {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.athlete h2 {
+    max-width: 394px;
+    font-size: 38px;
+    line-height: 45px;
+    color: #78BE21;
+    margin-bottom: 15px;
+}
+
+.athlete p {
+    max-width: 818px;
+    font-family: 'PT Sans';
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #6A6A57;
+    margin-bottom: 20px;
+}
+
+.athlete-buttons {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.athlete-buttons img {
+    width: 24px;
+    height: 24px;
+    color: #78BE21;
+}
+
+.insta-button {
+    margin-right: 28px;
+    width: 164px;
+    height: 34px;
+    border: 1px solid #78BE21;
+    color: #78BE21;
+}
+
+.insta-button:first-child {
+    background: #78BE21;
+    box-shadow: 0px 5px 14px rgba(7, 206, 110, 0.34);
+    color: #fff;
+    border-radius: 20px;
+    border: 0;
+}
+
+.athletes-slider {
+    display: flex;
+}
+
+.athlete-card {
+    display: grid;
+    width: 288px;
+    height: 368px;
+    margin: 0 15px;
+}
+
+.athlete-card h6 {
+    font-family: 'Averta';
+    font-weight: bold;
+    font-size: 19px;
+    color: #78BE21;
+}
+
+.athlete-card p {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: #6A6A57;
+}
+
+.insta-btn {
+    position: relative;
+    background-color: #78BE21;
+}

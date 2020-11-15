@@ -1,0 +1,54 @@
+.insta {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 15%;
+    background: url(/images/Elements.png) no-repeat;
+}
+
+.insta-area {
+    display: grid;
+    margin-left: 35px;
+}
+
+.insta-area img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 14px;
+}
+
+.insta-area h2 {
+    max-width: 393px;
+    font-family: 'Averta';
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 45px;
+    color: #606395;
+    margin-top: 13px;
+    margin-bottom: 14px;
+}
+
+.insta-area h6 {
+    max-width: 393px;
+    font-size: 19px;
+    color: #E31C79;
+}
+
+.instagram-slider {
+    display: flex;
+    position: relative;
+    right: -78px;
+}
+
+.instagram-slider img {
+    margin-right: 30px;
+}
+
+.instagram-slider img:last-child {
+    margin: 0;
+}
+
+.athlete-area {
+    margin-top: 100px;
+}

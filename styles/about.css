@@ -1,0 +1,120 @@
+.content-about {
+    height: 343px;
+    background-color: #3286C3;
+    position: relative;
+    margin-top: -195px;
+}
+
+.section-about {
+    width: 90%;
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.section-about h1,
+.section-about p,
+.section-about a {
+    margin-top: 30px;
+}
+
+.section-about h1 {
+    max-width: 600px;
+    color: #fff;
+    font-size: 48px;
+    line-height: 49px;
+}
+
+.section-about p {
+    font: 400 16px 'PT Sans';
+    max-width: 238px;
+    color: #051339;
+    line-height: 26px;
+    margin-right: 200px;
+}
+
+.more {
+    width: 180px;
+    height: 158px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 29px 49px;
+    flex-direction: column;
+    background-color: #2E7BB2;
+    border-radius: 9px;
+    margin-top: 25px;
+}
+
+.more img {
+    width: 40px;
+    height: 40px;
+}
+
+.more a {
+    font-family: 'PT Sans';
+    margin: 0;
+    max-width: 84px;
+    text-align: center;
+    color: #fff;
+}
+
+.cards-about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-area {
+    width: 1240px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #fff;
+    position: relative;
+    margin-top: -105px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 415px;
+}
+
+.card div {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 258px;
+    background-color: #143866;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.card2 div {
+    background-color: #1D4F91;
+}
+
+.card3 div {
+    background-color: #2566BB;
+}
+
+.card div img {
+    width: 50px;
+    height: 48px;
+}
+
+.card p {
+    font-family: 'PT Sans';
+    margin: 20px 20px 20px 158px;
+    max-width: 230px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A6A57;
+    letter-spacing: 0.03em;
+}

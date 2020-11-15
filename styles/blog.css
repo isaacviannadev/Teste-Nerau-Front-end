@@ -1,0 +1,103 @@
+.blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.sua-vez {
+    width: 684px;
+    height: 546px;
+    background-color: #4698CA;
+}
+
+.sua-vez h2 {
+    font-size: 38px;
+    line-height: 45px;
+    width: 300px;
+    color: #ffbf3f;
+    margin: 120px 62px 22px;
+}
+
+.sua-vez p {
+    font-family: 'PT Sans';
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    margin-left: 62px;
+    margin-bottom: 31px;
+    max-width: 394px;
+}
+
+.btn2 {
+    margin-left: 62px;
+}
+
+.slider {
+    position: relative;
+    left: -250px;
+    display: flex;
+}
+
+.blog-card {
+    width: 288px;
+    height: 421px;
+    margin: 0 20px;
+    display: grid;
+    background-color: #fff;
+}
+
+.blog-card h6 {
+    font-family: 'Averta';
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    color: #4698CA;
+    margin: 20px 19px 15px;
+}
+
+.blog-card p {
+    font-family: 'PT Sans';
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.03em;
+    color: #6A6A57;
+    margin: 15px 19px;
+}
+
+.blog-btn {
+    margin-left: 19px;
+    margin-bottom: 20px;
+    position: static;
+    width: 135px;
+    height: 35px;
+    border: 1px solid #E0E0E0;
+    border-radius: 0;
+    text-transform: none;
+    letter-spacing: normal;
+    color: #4f4f40;
+    font-size: 12px;
+}
+
+.pelicula {
+    position: absolute;
+    align-self: center;
+    width: 425px;
+    height: 421px;
+    left: 540px;
+    background: linear-gradient(270deg, #FAFAF8 11.18%, rgba(255, 255, 255, 0) 104.35%);
+}
+
+.btn-slide {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    box-shadow: none;
+    right: -5px;
+}
