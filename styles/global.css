@@ -1,0 +1,755 @@
+    @font-face {
+        font-family: 'Averta';
+        src: url(../assets/fonts/Averta.otf) format('opentype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-family: 'Averta';
+    }
+    
+    body {
+        background-color: #E5E5E5;
+        --webkit-font-smoothing: antialiased;
+    }
+    
+    a,
+    button {
+        text-decoration: none;
+        outline: none;
+        cursor: pointer;
+    }
+    
+    p {
+        font-family: 'PT Sans';
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Averta';
+    }
+    
+    .bg {
+        max-width: 100vw;
+        height: 100vh;
+        background: linear-gradient(180deg, #050626 0%, rgba(2, 2, 15, 0.381395) 21.83%, rgba(0, 1, 4, 0.0988803) 45.62%, rgba(0, 0, 0, 0) 57.12%), url(../images/bgmachu.png) no-repeat;
+        background-size: cover;
+    }
+    
+    .content-top {
+        width: 90%;
+        height: 986px;
+        max-width: 1240px;
+        margin: 0 auto;
+        flex-direction: row;
+        font-family: 'Averta';
+    }
+    
+    header {
+        display: flex;
+        height: 104px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    header.header-menu {
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    
+    .header-menu img {
+        width: 122px;
+        height: 80px;
+    }
+    
+    .header-menu a {
+        color: #fff;
+        font-size: 16px;
+    }
+    
+    .logo {
+        margin-right: 80px;
+        margin-left: 30px;
+    }
+    
+    button {
+        width: 202px;
+        height: 49px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 25px;
+        border: 0;
+        background-color: #fff;
+        margin-right: 80px;
+    }
+    
+    .btn {
+        display: flex;
+        font-family: 'Averta';
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        font-weight: 700;
+        color: #317CAA;
+    }
+    
+    .languageBtn {
+        width: 81px;
+        height: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #626262;
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    
+    a.languageBtn {
+        font-size: 12px;
+    }
+    
+    .languageBtn img {
+        margin-left: 5px;
+        width: 19px;
+        height: 19px;
+    }
+    
+    .content-about {
+        height: 343px;
+        background-color: #3286C3;
+        position: relative;
+        margin-top: -195px;
+    }
+    
+    .section-about {
+        width: 90%;
+        max-width: 1240px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .section-about h1,
+    .section-about p,
+    .section-about a {
+        margin-top: 30px;
+    }
+    
+    .section-about h1 {
+        max-width: 600px;
+        color: #fff;
+        font-size: 48px;
+        line-height: 49px;
+    }
+    
+    .section-about p {
+        font: 400 16px 'PT Sans';
+        max-width: 238px;
+        color: #051339;
+        line-height: 26px;
+        margin-right: 200px;
+    }
+    
+    .more {
+        width: 180px;
+        height: 158px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 29px 49px;
+        flex-direction: column;
+        background-color: #2E7BB2;
+        border-radius: 9px;
+        margin-top: 25px;
+    }
+    
+    .more img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .more a {
+        font-family: 'PT Sans';
+        margin: 0;
+        max-width: 84px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .cards-about {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .card-area {
+        width: 1240px;
+        height: 400px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #fff;
+        position: relative;
+        margin-top: -105px;
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 415px;
+    }
+    
+    .card div {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        top: 258px;
+        background-color: #143866;
+        border-radius: 50%;
+        margin-left: 20px;
+    }
+    
+    .card2 div {
+        background-color: #1D4F91;
+    }
+    
+    .card3 div {
+        background-color: #2566BB;
+    }
+    
+    .card div img {
+        width: 50px;
+        height: 48px;
+    }
+    
+    .card p {
+        font-family: 'PT Sans';
+        margin: 20px 20px 20px 158px;
+        max-width: 230px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #6A6A57;
+        letter-spacing: 0.03em;
+    }
+    
+    .sport {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .sport-area {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .sport-text {
+        margin-left: 20px;
+        width: 712px;
+        height: 654px;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        background-color: #fff;
+    }
+    
+    .sport-text h2 {
+        width: 302px;
+        height: 76px;
+        font-family: 'Averta';
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 45px;
+        display: flex;
+        align-items: center;
+        color: #FF5E0F;
+        margin: 58px 0 47px 56px;
+    }
+    
+    .sport-text p {
+        max-width: 422px;
+        font-family: 'PT Sans';
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+        color: #4F4F40;
+        margin-left: 56px;
+        margin-bottom: 25px;
+    }
+    
+    .orange-btn {
+        display: flex;
+        font-family: 'Averta';
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: #fff;
+        width: 150px;
+        height: 49px;
+        margin-left: 56px;
+        margin-top: 25px;
+        background: #FF5E0F;
+        border-radius: 40px;
+    }
+    
+    .logo-transp {
+        position: relative;
+        left: -35px;
+        width: 605px;
+        height: 477px;
+        background: url(/images/sportsimg.png) no-repeat;
+    }
+    
+    .play-btn {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: #FF5E0F;
+        box-shadow: 0px 22px 39px rgba(0, 0, 0, 0.4);
+        border-radius: 50%;
+        margin: 0;
+    }
+    
+    .play-button img {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+    }
+    /* NATRUAL - SOU + FIBRAS */
+    
+    .naturals {
+        max-width: 100vw;
+        height: 779px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .naturals-area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .naturals img {
+        width: 80%;
+    }
+    
+    .natural-food {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -10%;
+    }
+    
+    .natural-food h2 {
+        max-width: 500px;
+        font-size: 38px;
+        line-height: 45px;
+        color: #FFBF3F;
+        margin-bottom: 21px;
+    }
+    
+    .natural-food p {
+        max-width: 500px;
+        font-family: 'PT Sans';
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.03em;
+        color: #6A6A57;
+        margin-bottom: 36px;
+    }
+    
+    .yellow-btn {
+        background-color: #FFBF3F;
+        color: #fff;
+    }
+    /* BLOG */
+    
+    .blog {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .blog-area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 15%;
+    }
+    
+    .sua-vez {
+        width: 684px;
+        height: 546px;
+        background-color: #4698CA;
+    }
+    
+    .sua-vez h2 {
+        font-size: 38px;
+        line-height: 45px;
+        width: 300px;
+        color: #ffbf3f;
+        margin: 120px 62px 22px;
+    }
+    
+    .sua-vez p {
+        font-family: 'PT Sans';
+        font-size: 16px;
+        line-height: 26px;
+        color: #fff;
+        margin-left: 62px;
+        margin-bottom: 31px;
+        max-width: 394px;
+    }
+    
+    .btn2 {
+        margin-left: 62px;
+    }
+    
+    .slider {
+        position: relative;
+        left: -250px;
+        display: flex;
+    }
+    
+    .blog-card {
+        width: 288px;
+        height: 421px;
+        margin: 0 20px;
+        display: grid;
+        background-color: #fff;
+    }
+    
+    .blog-card h6 {
+        font-family: 'Averta';
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 23px;
+        color: #4698CA;
+        margin: 20px 19px 15px;
+    }
+    
+    .blog-card p {
+        font-family: 'PT Sans';
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.03em;
+        color: #6A6A57;
+        margin: 15px 19px;
+    }
+    
+    .blog-btn {
+        margin-left: 19px;
+        margin-bottom: 20px;
+        position: static;
+        width: 135px;
+        height: 35px;
+        border: 1px solid #E0E0E0;
+        border-radius: 0;
+        text-transform: none;
+        letter-spacing: normal;
+        color: #4f4f40;
+        font-size: 12px;
+    }
+    
+    .pelicula {
+        position: absolute;
+        align-self: center;
+        width: 425px;
+        height: 421px;
+        left: 540px;
+        background: linear-gradient(270deg, #FAFAF8 11.18%, rgba(255, 255, 255, 0) 104.35%);
+    }
+    
+    .btn-slide {
+        width: 50px;
+        height: 50px;
+        align-self: center;
+        box-shadow: none;
+        right: -5px;
+    }
+    /* INSTAGRAM */
+    
+    .insta {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 15%;
+        background: url(/images/Elements.png) no-repeat;
+    }
+    
+    .insta-area {
+        display: grid;
+        margin-left: 35px;
+    }
+    
+    .insta-area img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 14px;
+    }
+    
+    .insta-area h2 {
+        max-width: 393px;
+        font-family: 'Averta';
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 45px;
+        color: #606395;
+        margin-top: 13px;
+        margin-bottom: 14px;
+    }
+    
+    .insta-area h6 {
+        max-width: 393px;
+        font-size: 19px;
+        color: #E31C79;
+    }
+    
+    .instagram-slider {
+        display: flex;
+        position: relative;
+        right: -78px;
+    }
+    
+    .instagram-slider img {
+        margin-right: 30px;
+    }
+    
+    .instagram-slider img:last-child {
+        margin: 0;
+    }
+    
+    .athlete-area {
+        margin-top: 100px;
+    }
+    
+    .athlete {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .athlete h2 {
+        max-width: 394px;
+        font-size: 38px;
+        line-height: 45px;
+        color: #78BE21;
+        margin-bottom: 15px;
+    }
+    
+    .athlete p {
+        max-width: 818px;
+        font-family: 'PT Sans';
+        font-size: 16px;
+        letter-spacing: 0.03em;
+        color: #6A6A57;
+        margin-bottom: 20px;
+    }
+    
+    .athlete-buttons {
+        display: flex;
+        margin-bottom: 30px;
+    }
+    
+    .athlete-buttons img {
+        width: 24px;
+        height: 24px;
+        color: #78BE21;
+    }
+    
+    .insta-button {
+        margin-right: 28px;
+        width: 164px;
+        height: 34px;
+        border: 1px solid #78BE21;
+        color: #78BE21;
+    }
+    
+    .insta-button:first-child {
+        background: #78BE21;
+        box-shadow: 0px 5px 14px rgba(7, 206, 110, 0.34);
+        color: #fff;
+        border-radius: 20px;
+        border: 0;
+    }
+    
+    .athletes-slider {
+        display: flex;
+    }
+    
+    .athlete-card {
+        display: grid;
+        width: 288px;
+        height: 368px;
+        margin: 0 15px;
+    }
+    
+    .athlete-card h6 {
+        font-family: 'Averta';
+        font-weight: bold;
+        font-size: 19px;
+        color: #78BE21;
+    }
+    
+    .athlete-card p {
+        font-family: 'PT Sans';
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #6A6A57;
+    }
+    
+    .insta-btn {
+        position: relative;
+        background-color: #78BE21;
+    }
+    
+    .partner {
+        margin-top: 100px;
+        max-width: 100vw;
+        height: 520px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #F2F2EE;
+    }
+    
+    .partner-area {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .partner-card {
+        width: 360px;
+        height: 223px;
+        margin-right: 100px;
+    }
+    
+    .partner-card h2 {
+        font-size: 38px;
+        color: #FA4616;
+        margin-bottom: 13px;
+    }
+    
+    .partner-card p {
+        font-family: 'PT Sans';
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        color: #6A6A57;
+        margin-bottom: 35px;
+    }
+    
+    .sell-btn {
+        color: #FA4616;
+    }
+    
+    .neswletter {
+        max-width: 100vw;
+        height: 180px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: url(/images/Montanha.png) #03257E no-repeat;
+    }
+    
+    .news-form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .news-form h6 {
+        max-width: 341px;
+        font-size: 19px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+    
+    .news-form form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .news-form button {
+        color: #03257E;
+    }
+    
+    .input-div {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .input-div label {
+        font-family: 'Averta';
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: #E9ECEF;
+        margin-bottom: 15px;
+    }
+    
+    .input-div input {
+        width: 225px;
+        height: 49px;
+        border: 1px solid #E9ECEF;
+        background-color: #03257E;
+        margin-right: 20px;
+        color: #E9ECEF;
+    }
+    
+    .input-div input::-webkit-input-placeholder {
+        color: #E9ECEF;
+        font-family: 'Averta';
+        font-size: 12px;
+        margin-left: 50px;
+    }
+    
+    .footer {
+        max-width: 100vw;
+        height: 634px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #012765;
+    }
+    
+    .footer-area {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #2566BB;
+    }
+    
+    .end {
+        max-width: 100vw;
+        height: 90px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #002053;
+    }
