@@ -25,10 +25,12 @@
         text-decoration: none;
         outline: none;
         cursor: pointer;
+        letter-spacing: 0.03em;
     }
     
     p {
         font-family: 'PT Sans';
+        letter-spacing: 0.03em;
     }
     
     h1,
@@ -38,6 +40,10 @@
     h5,
     h6 {
         font-family: 'Averta';
+    }
+    
+    ul {
+        list-style: none;
     }
     
     .bg {
@@ -681,11 +687,12 @@
         align-items: center;
     }
     
-    .news-form h6 {
+    .h6-footer {
         max-width: 341px;
         font-size: 19px;
         line-height: 23px;
         color: #FFFFFF;
+        margin-bottom: 19px;
     }
     
     .news-form form {
@@ -740,9 +747,10 @@
     }
     
     .footer-area {
+        max-width: 90%;
+        height: 547px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        background-color: #2566BB;
     }
     
     .end {
@@ -752,4 +760,139 @@
         justify-content: space-around;
         align-items: center;
         background-color: #002053;
+    }
+    
+    .logoipsum-area {
+        max-width: 394px;
+        margin-left: 80px;
+    }
+    
+    .logoipsum-area img {
+        margin-bottom: 31px;
+    }
+    
+    .logoipsum-area p {
+        font-family: 'Averta';
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+        margin-bottom: 22px;
+    }
+    
+    .logoipsum-area li {
+        margin-bottom: 20px;
+    }
+    
+    .logoipsum-area a {
+        font-family: 'Averta';
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        text-decoration-line: underline;
+        color: #56CCF2;
+    }
+    
+    p.caption {
+        font-family: 'Averta';
+        font-size: 12px;
+        line-height: 15px;
+        color: #8AA6D5;
+        margin-bottom: 0;
+    }
+    
+    .contact-area {
+        max-width: 547px;
+        margin: 0 60px;
+    }
+    
+    .contact-methods {
+        display: flex;
+    }
+    
+    .ctt-ico {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ctt-text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 9px;
+        margin-bottom: 25px;
+    }
+    
+    .ctt-text span {
+        font-family: 'PT Sans';
+        font-size: 16px;
+        line-height: 29px;
+        color: #56CCF2;
+    }
+    
+    .ctt-text a {
+        font-family: 'PT Sans';
+        font-size: 12px;
+        text-decoration-line: underline;
+        color: #56CCF2;
+        margin-top: 25px;
+    }
+    
+    .ctt-ico img {
+        width: 24px;
+        height: 24px;
+        margin-bottom: 38px;
+    }
+    
+    .seller {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 394px;
+        height: 265px;
+        border: 1px solid #56CCF2;
+    }
+    
+    .seller-content {
+        max-width: 90%;
+    }
+    
+    .seller-content p {
+        font-size: 16px;
+        line-height: 26px;
+        color: #8AA6D5;
+        margin-bottom: 22px;
+    }
+    
+    .seller-content button {
+        width: 247px;
+        height: 49px;
+        background: #56CCF2;
+        border-radius: 40px;
+    }
+    
+    .detais {
+        max-width: 272px;
+        height: 547px;
+        margin-left: 40px;
+    }
+    
+    .social {
+        margin-bottom: 40px;
+    }
+    
+    .social img {
+        margin-right: 22px;
+    }
+    
+    .payment-options {
+        margin-bottom: 60px;
+    }
+    
+    .payment-options img {
+        margin-right: 5px;
+    }
+    
+    .eco-img img {
+        margin-right: 5px;
+        margin-bottom: 2px;
     }
