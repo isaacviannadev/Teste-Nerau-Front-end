@@ -187,3 +187,33 @@ a.languageBtn {
 #hideMenu:hover {
     opacity: 1;
 }
+
+@media(max-width: 760px) {
+    .bg {
+        min-width: 760px;
+        margin: 0;
+    }
+    header ul a,
+    .header-menu:hover,
+    .menuProd,
+    #hideMenu {
+        display: none;
+    }
+    header.header-menu {
+        width: 760px;
+        height: 300px;
+    }
+    header.header-menu img.logoTop {
+        width: 300px;
+        height: 300px;
+    }
+    header ul {
+        display: block;
+    }
+    .hover {
+        display: none;
+    }
+    .contentTop {
+        width: 760px;
+    }
+}

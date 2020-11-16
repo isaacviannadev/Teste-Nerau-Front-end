@@ -1,47 +1,56 @@
-    @font-face {
-        font-family: 'Averta';
-        src: url(../assets/fonts/Averta.otf) format('opentype');
-        font-weight: normal;
-        font-style: normal;
-    }
-    
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    html {
-        font-family: 'Averta';
-    }
-    
-    body {
-        background-color: #E5E5E5;
-        --webkit-font-smoothing: antialiased;
-    }
-    
-    a,
-    button {
-        text-decoration: none;
-        outline: none;
-        cursor: pointer;
-        letter-spacing: 0.03em;
-    }
-    
-    p {
-        font-family: 'PT Sans';
-        letter-spacing: 0.03em;
-    }
-    
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: 'Averta';
-    }
-    
-    ul {
-        list-style: none;
-    }
+        @font-face {
+            font-family: 'Averta';
+            src: url(../assets/fonts/Averta.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            font-family: 'Averta';
+        }
+        
+        body {
+            background-color: #E5E5E5;
+            --webkit-font-smoothing: antialiased;
+        }
+        
+        a,
+        button {
+            text-decoration: none;
+            outline: none;
+            cursor: pointer;
+            letter-spacing: 0.03em;
+        }
+        
+        p {
+            font-family: 'PT Sans';
+            letter-spacing: 0.03em;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Averta';
+        }
+        
+        ul {
+            list-style: none;
+        }
+        
+        @media(max-width: 760px) {
+            html {
+                max-width: 760px;
+            }
+            body {
+                width: 760px;
+            }
+        }
