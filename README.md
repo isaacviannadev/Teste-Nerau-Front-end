@@ -7,7 +7,7 @@ Por opção, desenvolvi usando apenas **HTML e CSS**, ficaria muito mais organiz
 
 * [VSCode](https://code.visualstudio.com/) - O editor usado
 * [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Para visualisar em tempo real
-*[Vercel](https://test-nerau.vercel.app/#) - Deploy da versão final.
+* [Vercel](https://test-nerau.vercel.app/#) - Deploy da versão final.
 
 
 ## 🎁 Gratidão
